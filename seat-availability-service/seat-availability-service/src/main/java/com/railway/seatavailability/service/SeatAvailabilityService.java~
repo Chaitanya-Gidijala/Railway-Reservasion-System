@@ -1,0 +1,7 @@
+package com.railway.seatavailability.service;
+
+import com.railway.seatavailability.dto.SeatAvailabilityDTO;
+
+public interface SeatAvailabilityService {
+    SeatAvailabilityDTO checkSeatAvailability(String trainNumber, String date);
+}
